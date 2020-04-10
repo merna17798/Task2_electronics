@@ -43,7 +43,7 @@ to reach four floor: req_delay_floor	= 6000
 	delay(50); //2.5sec
 	// all the above lines for open and close the door and don't try to delet any comment as the entire logic won't work :((
 	if(P2=0x06){
-		m1_pin1 = 0; //put c=0 (to stop motor in clockwise mode), put c=1 (to stop motor unticlockwise mode)
+		m1_pin1 = 0; 
 	    m1_pin2 = 0;
 		delay(500);
 		}
